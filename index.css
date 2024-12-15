@@ -1,1 +1,25 @@
 /* i just created css file  */
+
+li > a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+   }
+
+   a:visited{
+    color: brown;
+   }
+
+   table {
+    /* border: 1px solid green; */
+    width: 100%;
+    border-collapse: collapse;
+   }
+   th, td{
+    border: 1px solid black;
+    text-align: center;
+    /* padding: 8px; */
+   }
+
+
+   
