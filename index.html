@@ -65,6 +65,7 @@
   </head>
 
   <body>
+    <div id="root"></div>
     <!-- body ==> if you are writing any thing inside body it will render into the view portion -->
     <!-- in body we have two types elements are there , those are 
                                                          1. inline elements  
@@ -171,7 +172,8 @@
 </table>
 
 <!-- forms -->
-
+<main>
+  <section>
 <form onsubmit="handle">
   <input type="text" placeholder="enter text here" required>
   <input type="number"  placeholder="enter number here" required>
@@ -182,13 +184,67 @@
   <input type="button" value="submit">
   <textarea rows="3" cols="30" placeholder="enter comments here"></textarea>
 </form>
+</section>
+<section>
+  <nav>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li>
+  </nav>
+</section>
+</main>
+<!-- <header></header>
+<nav></nav>
+<footer></footer>
+<div></div>
+<main></main>
+<section></section> -->
 
+<input type="radio">
+<input type="checkbox">
+<label>username</label>
+<input type="color">
+<label>date:</label>
+<input type="date">
+<input type="time">
+<input type="range">
+<input type="month">
+<input type="datetime-local">
+<input type="file">
+<input type="tel">
+<input type="image">
+<input type="week" name="" id="">
+
+<textarea rows="5" cols="30"></textarea>
+
+<select>
+  <option value="1">opt 1</option>
+  <option value="2">opt 2</option>
+  <option>opt 3</option>
+  <option>opt 4</option>
+  <option>opt 5</option>
+</select>
+
+
+<article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate maxime ratione, numquam atque magni voluptate vitae quas autem facilis quisquam consequatur praesentium quasi eos quaerat cum debitis iusto asperiores expedita reiciendis iste totam hic? Repudiandae dicta obcaecati ad at quibusdam? Quod ad totam cupiditate commodi eos in, iste ab expedita delectus eum eaque maxime vel corporis labore quaerat, dicta tempora dolores excepturi dolorum quis. Maiores, atque dolores reiciendis alias neque expedita obcaecati in enim provident libero dolor animi voluptatem, vero nesciunt voluptate magnam distinctio quibusdam quos minus modi et earum autem rerum! Nemo praesentium sapiente nulla, ipsam at maiores.</article>
 <!-- img,  video -->
 
 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="image">
 
 <video src="https://youtu.be/0iGlyPD4Kdc?si=wx0t4h8mlfV40J42" controls></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQTx4eswiFY?si=rXl95CvvfieOgBZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<script>
+  sessionStorage.setItem("name","yamini")
+   let value= sessionStorage.getItem("name")
 
+   let heading=document.createElement("h1")
+   heading.innerHTML=value
+   const some=document.getElementById("root")
+   some.appendChild(heading)
+   
+</script>
   </body>
 </html>
 <!-- 
@@ -199,6 +255,8 @@ target:,
 text-decoration:"",
 color:""
 cursor:"",
+pseudo elements, :
+pseudo classes ::
 
 -->
 
@@ -219,8 +277,55 @@ cursor:"",
 ==> new input types
 ==> HQ audio and video support
 ==> local & session storage
-==> canvas  
-==> geoLocation
-==> iframe
+==> canvas ==> animations 
+==> geoLocation  ==> 
+==> iframe  =>
+
+-->
+
+
+<!-- 
+css box model  => content, padding, border, margin
+properties 
+flex  => one dimensional layout => responsive design
+grid  => two dimensional layout => responsive design
+position ==> static, absolute, relative, fixed, sticky
+-->
+
+
+
+<!-- 
+Ecma script
+
+javascript 
+
+code execution
+
+es6 faetures
+
+operators
+
+loops
+
+conditions
+
+array  ==> methods
+
+object  ==> methods
+
+closure
+
+currying
+
+hoisting
+
+functions
+
+promises
+
+generators
+
+
+
 
 -->
